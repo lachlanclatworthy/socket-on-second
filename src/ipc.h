@@ -9,6 +9,7 @@ extern "C" {
 #endif // __cplusplus
 
 void ex1(void);
+void ex2(void);
 
 #ifdef __cplusplus
 }

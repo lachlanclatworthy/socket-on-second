@@ -45,6 +45,19 @@ void ex1(void) {
     printf("\n");
 }
 
+void ex2(void) {
+    printf("Example 2!\n");
+    if (!fork()) {
+        printf("This is the child!\n");
+        exit(0);
+    } else {
+        printf("This is the parent!\n");
+        wait(NULL);
+    }
+
+    printf("\n");
+}
+
 #ifdef __cplusplus
 }
 }
