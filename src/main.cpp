@@ -3,6 +3,6 @@
 #include "ipc.h"
 
 int main() {
-	ipc::ex1();
-	return 0;
+    ipc::ex1();
+    return 0;
 }
